@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100vw;
+    height: 20vh;
+    background-image: url(p\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-y: 60%;
+    position: static;
+    display: block;
+    padding: 5px;
+    border: 0px;
+    margin: 0px;
+
+    text-align: center;
+    color: snow;
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.363);
+    font-size: 2rem;
+    font-family: Verdana;
+    font-size-adjust: 10%;
+
+}
+
+
+.galeria{
+    background-color: black;
+}
+
+.cuerpo{
+    background-color: black;
+    height: 40vh;
+    width: 100vw;
+}
+
+.fotos{
+    height: 300px;
+    width: 300px;
+    background-color: snow;
+    /* background-size:fill; */
+    object-fit: contain;
+    display: inline-block;
+    margin: 15px;
+}
+
+.Perros,
+.Gatos,
+.Flores,
+.Paisajes{
+    height: 400px;
+    width: 400px;
+    background-size:cover;
+    display: inline-block;
+
+    /* padding: 10px 30px; */
+    margin: 40px 30px;
+    color: snow;
+    border-width: 2px;
+    border-style: solid;
+    border-color: azure;
+}
+
+body{
+    background-color: black;
+}
+
+.galeria{
+    margin: 100px 0px;
+}
+
+.cuerpo{
+    margin: 10px 0px;
+}
+
+.Perros{
+    background-image: url(f\ \(2\).jpg);
+    background-position: -50px;
+}
+
+.Gatos{
+    background-image: url(g.jpg);
+}
+
+.Paisajes{
+    background-image: url(l.jpg);
+}
+
+.Flores{
+    background-image: url(r\ \(3\).jpg);
+    background-position: -100px;
+
+}
+
+div a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: snow;
+    padding-top: 15px;
+}
+
+/* div a:hover{
+    
+} */
+/* ------------------------------------------------------------------ */
+
+
+.primero{
+    margin-top: 100px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 10px;
+}
+
+nav ul li {
+    display: block;
+    margin:50px 0;
+    line-height: 10px;
+}
+
+nav ul li a {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+
+ul {
+    position: fixed;
+    width: 15vw;
+    height: 100vh;
+    background: #925800ea;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+}
+
+nav a:hover {
+    background: #d6871177;
+    transition: .5s;
+}
+
+.checkbtn {
+    position: fixed;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    float: left;
+    line-height: 80px;
+    margin-left: 40px;
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+}
+
+#checkbox:checked~ul {
+    left:0;
+}
+
+#checkbox {
+    display: none;
+}
